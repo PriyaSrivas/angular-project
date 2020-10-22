@@ -1,0 +1,27 @@
+
+
+.heading {
+font-size: 3rem;
+font-weight: 900;
+}
+
+.banner{
+background-image: url("../../assets/images/group-discussion.png");
+height: 500px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+@media only screen and (min-width: 1000px) {
+.banner h1 span{
+font-size:90px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.banner h1 span{
+font-size:50px;
+}
+}

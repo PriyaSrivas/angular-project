@@ -1,0 +1,58 @@
+body {
+font-family: 'Muli', 'sans-serif';
+}
+
+#slider {
+overflow: hidden;
+position: relative;
+text-align: center;
+color: #fff;
+}
+#slider figure {
+position: relative;
+width: 500%;
+margin: 0;
+left: 0;
+animation: 10s slider infinite;
+}
+
+#slider figure img {
+width: 20%;
+float: left;
+}
+
+@keyframes slider {
+0% {
+left: 0;
+}
+20% {
+left: 0;
+}
+25% {
+left: -100%;
+}
+45% {
+left: -100%;
+}
+50% {
+left: -200%;
+}
+
+}
+
+.main-text {
+position: absolute;
+padding-top: 10%;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 5rem;
+}
+.sub-text {
+position: absolute;
+padding-top: 10%;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 2rem;
+}

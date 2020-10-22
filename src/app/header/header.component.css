@@ -1,0 +1,13 @@
+
+
+nav {
+    background-image: linear-gradient(to right, white, #cceccc);
+}
+
+body {
+    font-family: 'Muli', 'sans-serif';
+}
+
+a .login-button:hover {
+    color: #000;
+}

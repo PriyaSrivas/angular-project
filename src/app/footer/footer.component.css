@@ -1,0 +1,25 @@
+
+body {
+    font-family: 'Muli', 'sans-serif';
+  }
+
+ul {
+    list-style: none;
+    font-size: 0.9rem;
+    color: #7d7d7d;
+}
+
+ul li {
+    padding: 5px;
+}
+
+p {
+    font-size: 0.9rem;
+    color: #7d7d7d;
+}
+
+.footer-copyright {
+    text-align: center;
+    background-color: #e4e4e4;
+    padding: .75rem !important;
+}

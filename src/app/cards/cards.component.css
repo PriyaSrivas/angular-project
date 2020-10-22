@@ -1,0 +1,28 @@
+body {
+font-family: 'Muli', 'sans-serif';
+}
+
+@media screen and (min-width: 767px) {
+    .card-width {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .card-width {
+      width: 100%;
+    }
+  }
+
+
+
+.image-width {
+height: 200px;
+width: 300px;
+}
+
+.card-icons {
+height: 50px;
+width: 50px;
+border-radius: 50%;
+}
